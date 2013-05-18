@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A65A1C17470CD100D768B6 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A1B17470CD100D768B6 /* PebbleKit.framework */; };
+		D0A65A1E17470CDD00D768B6 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A1D17470CDD00D768B6 /* ExternalAccessory.framework */; };
+		D0A65A2017470CE300D768B6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A1F17470CE300D768B6 /* libz.dylib */; };
+		D0A65A2217470CE700D768B6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A2117470CE700D768B6 /* CoreBluetooth.framework */; };
+		D0A65A2417470CEB00D768B6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A2317470CEB00D768B6 /* CoreMotion.framework */; };
+		D0A65A2617470CEF00D768B6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A2517470CEF00D768B6 /* MessageUI.framework */; };
+		D0A65A2917470D7900D768B6 /* JSPebbleInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A65A2817470D7900D768B6 /* JSPebbleInterface.m */; };
+		D0A65A2B17470F3C00D768B6 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A2A17470F3C00D768B6 /* PebbleVendor.framework */; };
+		D0A65A4C1747363F00D768B6 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A65A4B1747363F00D768B6 /* EventKit.framework */; };
+		D0A65A4F1747434E00D768B6 /* JSPebbleReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A65A4E1747434E00D768B6 /* JSPebbleReminders.m */; };
 		D0D2DB4217470C2D00DF08BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4117470C2D00DF08BC /* UIKit.framework */; };
 		D0D2DB4417470C2D00DF08BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4317470C2D00DF08BC /* Foundation.framework */; };
 		D0D2DB4617470C2D00DF08BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4517470C2D00DF08BC /* CoreGraphics.framework */; };
@@ -36,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0A65A1B17470CD100D768B6 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = Dependencies/pebblekit/iOS/PebbleKit.framework; sourceTree = "<group>"; };
+		D0A65A1D17470CDD00D768B6 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		D0A65A1F17470CE300D768B6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D0A65A2117470CE700D768B6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D0A65A2317470CEB00D768B6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D0A65A2517470CEF00D768B6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D0A65A2717470D7900D768B6 /* JSPebbleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSPebbleInterface.h; path = Classes/JSPebbleInterface.h; sourceTree = "<group>"; };
+		D0A65A2817470D7900D768B6 /* JSPebbleInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSPebbleInterface.m; path = Classes/JSPebbleInterface.m; sourceTree = "<group>"; };
+		D0A65A2A17470F3C00D768B6 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = Dependencies/pebblekit/iOS/PebbleVendor.framework; sourceTree = "<group>"; };
+		D0A65A4B1747363F00D768B6 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D0A65A4D1747434E00D768B6 /* JSPebbleReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSPebbleReminders.h; path = Classes/JSPebbleReminders.h; sourceTree = "<group>"; };
+		D0A65A4E1747434E00D768B6 /* JSPebbleReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSPebbleReminders.m; path = Classes/JSPebbleReminders.m; sourceTree = "<group>"; };
 		D0D2DB3E17470C2D00DF08BC /* JSPebbleReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPebbleReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D2DB4117470C2D00DF08BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D0D2DB4317470C2D00DF08BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,9 +87,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A65A4C1747363F00D768B6 /* EventKit.framework in Frameworks */,
+				D0A65A2617470CEF00D768B6 /* MessageUI.framework in Frameworks */,
+				D0A65A2417470CEB00D768B6 /* CoreMotion.framework in Frameworks */,
+				D0A65A2217470CE700D768B6 /* CoreBluetooth.framework in Frameworks */,
+				D0A65A2017470CE300D768B6 /* libz.dylib in Frameworks */,
+				D0A65A1E17470CDD00D768B6 /* ExternalAccessory.framework in Frameworks */,
 				D0D2DB4217470C2D00DF08BC /* UIKit.framework in Frameworks */,
 				D0D2DB4417470C2D00DF08BC /* Foundation.framework in Frameworks */,
 				D0D2DB4617470C2D00DF08BC /* CoreGraphics.framework in Frameworks */,
+				D0A65A1C17470CD100D768B6 /* PebbleKit.framework in Frameworks */,
+				D0A65A2B17470F3C00D768B6 /* PebbleVendor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0A65A1A17470CC600D768B6 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65A1B17470CD100D768B6 /* PebbleKit.framework */,
+				D0A65A2A17470F3C00D768B6 /* PebbleVendor.framework */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
 		D0D2DB3517470C2D00DF08BC = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +145,12 @@
 		D0D2DB4017470C2D00DF08BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0A65A4B1747363F00D768B6 /* EventKit.framework */,
+				D0A65A2517470CEF00D768B6 /* MessageUI.framework */,
+				D0A65A2317470CEB00D768B6 /* CoreMotion.framework */,
+				D0A65A2117470CE700D768B6 /* CoreBluetooth.framework */,
+				D0A65A1F17470CE300D768B6 /* libz.dylib */,
+				D0A65A1D17470CDD00D768B6 /* ExternalAccessory.framework */,
 				D0D2DB4117470C2D00DF08BC /* UIKit.framework */,
 				D0D2DB4317470C2D00DF08BC /* Foundation.framework */,
 				D0D2DB4517470C2D00DF08BC /* CoreGraphics.framework */,
@@ -122,6 +167,11 @@
 				D0D2DB5917470C2D00DF08BC /* JSViewController.h */,
 				D0D2DB5A17470C2D00DF08BC /* JSViewController.m */,
 				D0D2DB5C17470C2E00DF08BC /* JSViewController.xib */,
+				D0A65A2717470D7900D768B6 /* JSPebbleInterface.h */,
+				D0A65A2817470D7900D768B6 /* JSPebbleInterface.m */,
+				D0A65A4D1747434E00D768B6 /* JSPebbleReminders.h */,
+				D0A65A4E1747434E00D768B6 /* JSPebbleReminders.m */,
+				D0A65A1A17470CC600D768B6 /* Dependencies */,
 				D0D2DB4817470C2D00DF08BC /* Supporting Files */,
 			);
 			path = JSPebbleReminders;
@@ -274,6 +324,8 @@
 				D0D2DB4E17470C2D00DF08BC /* main.m in Sources */,
 				D0D2DB5217470C2D00DF08BC /* JSAppDelegate.m in Sources */,
 				D0D2DB5B17470C2D00DF08BC /* JSViewController.m in Sources */,
+				D0A65A2917470D7900D768B6 /* JSPebbleInterface.m in Sources */,
+				D0A65A4F1747434E00D768B6 /* JSPebbleReminders.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +434,18 @@
 		D0D2DB7717470C2E00DF08BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JSPebbleReminders/Dependencies/pebblekit/iOS\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSPebbleReminders/JSPebbleReminders-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
 				INFOPLIST_FILE = "JSPebbleReminders/JSPebbleReminders-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,9 +454,18 @@
 		D0D2DB7817470C2E00DF08BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JSPebbleReminders/Dependencies/pebblekit/iOS\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSPebbleReminders/JSPebbleReminders-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
 				INFOPLIST_FILE = "JSPebbleReminders/JSPebbleReminders-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,6 +524,7 @@
 				D0D2DB7817470C2E00DF08BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0D2DB7917470C2E00DF08BC /* Build configuration list for PBXNativeTarget "JSPebbleRemindersTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +533,7 @@
 				D0D2DB7B17470C2E00DF08BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
