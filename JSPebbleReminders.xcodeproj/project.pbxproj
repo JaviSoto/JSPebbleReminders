@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D2DB4217470C2D00DF08BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4117470C2D00DF08BC /* UIKit.framework */; };
+		D0D2DB4417470C2D00DF08BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4317470C2D00DF08BC /* Foundation.framework */; };
+		D0D2DB4617470C2D00DF08BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4517470C2D00DF08BC /* CoreGraphics.framework */; };
+		D0D2DB4C17470C2D00DF08BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0D2DB4A17470C2D00DF08BC /* InfoPlist.strings */; };
+		D0D2DB4E17470C2D00DF08BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D2DB4D17470C2D00DF08BC /* main.m */; };
+		D0D2DB5217470C2D00DF08BC /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D2DB5117470C2D00DF08BC /* JSAppDelegate.m */; };
+		D0D2DB5417470C2D00DF08BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D2DB5317470C2D00DF08BC /* Default.png */; };
+		D0D2DB5617470C2D00DF08BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D2DB5517470C2D00DF08BC /* Default@2x.png */; };
+		D0D2DB5817470C2D00DF08BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D2DB5717470C2D00DF08BC /* Default-568h@2x.png */; };
+		D0D2DB5B17470C2D00DF08BC /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D2DB5A17470C2D00DF08BC /* JSViewController.m */; };
+		D0D2DB5E17470C2E00DF08BC /* JSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D2DB5C17470C2E00DF08BC /* JSViewController.xib */; };
+		D0D2DB6617470C2E00DF08BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB6517470C2E00DF08BC /* SenTestingKit.framework */; };
+		D0D2DB6717470C2E00DF08BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4117470C2D00DF08BC /* UIKit.framework */; };
+		D0D2DB6817470C2E00DF08BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D2DB4317470C2D00DF08BC /* Foundation.framework */; };
+		D0D2DB7017470C2E00DF08BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0D2DB6E17470C2E00DF08BC /* InfoPlist.strings */; };
+		D0D2DB7317470C2E00DF08BC /* JSPebbleRemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D2DB7217470C2E00DF08BC /* JSPebbleRemindersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D2DB6917470C2E00DF08BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D2DB3617470C2D00DF08BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D2DB3D17470C2D00DF08BC;
+			remoteInfo = JSPebbleReminders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0D2DB3E17470C2D00DF08BC /* JSPebbleReminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPebbleReminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D2DB4117470C2D00DF08BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0D2DB4317470C2D00DF08BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0D2DB4517470C2D00DF08BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0D2DB4917470C2D00DF08BC /* JSPebbleReminders-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSPebbleReminders-Info.plist"; sourceTree = "<group>"; };
+		D0D2DB4B17470C2D00DF08BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0D2DB4D17470C2D00DF08BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0D2DB4F17470C2D00DF08BC /* JSPebbleReminders-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSPebbleReminders-Prefix.pch"; sourceTree = "<group>"; };
+		D0D2DB5017470C2D00DF08BC /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		D0D2DB5117470C2D00DF08BC /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		D0D2DB5317470C2D00DF08BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0D2DB5517470C2D00DF08BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0D2DB5717470C2D00DF08BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0D2DB5917470C2D00DF08BC /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		D0D2DB5A17470C2D00DF08BC /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		D0D2DB5D17470C2E00DF08BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JSViewController.xib; sourceTree = "<group>"; };
+		D0D2DB6417470C2E00DF08BC /* JSPebbleRemindersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPebbleRemindersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D2DB6517470C2E00DF08BC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0D2DB6D17470C2E00DF08BC /* JSPebbleRemindersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSPebbleRemindersTests-Info.plist"; sourceTree = "<group>"; };
+		D0D2DB6F17470C2E00DF08BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0D2DB7117470C2E00DF08BC /* JSPebbleRemindersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSPebbleRemindersTests.h; sourceTree = "<group>"; };
+		D0D2DB7217470C2E00DF08BC /* JSPebbleRemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPebbleRemindersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D2DB3B17470C2D00DF08BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D2DB4217470C2D00DF08BC /* UIKit.framework in Frameworks */,
+				D0D2DB4417470C2D00DF08BC /* Foundation.framework in Frameworks */,
+				D0D2DB4617470C2D00DF08BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D2DB6017470C2E00DF08BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D2DB6617470C2E00DF08BC /* SenTestingKit.framework in Frameworks */,
+				D0D2DB6717470C2E00DF08BC /* UIKit.framework in Frameworks */,
+				D0D2DB6817470C2E00DF08BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D2DB3517470C2D00DF08BC = {
+			isa = PBXGroup;
+			children = (
+				D0D2DB4717470C2D00DF08BC /* JSPebbleReminders */,
+				D0D2DB6B17470C2E00DF08BC /* JSPebbleRemindersTests */,
+				D0D2DB4017470C2D00DF08BC /* Frameworks */,
+				D0D2DB3F17470C2D00DF08BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D2DB3F17470C2D00DF08BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D2DB3E17470C2D00DF08BC /* JSPebbleReminders.app */,
+				D0D2DB6417470C2E00DF08BC /* JSPebbleRemindersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D2DB4017470C2D00DF08BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D2DB4117470C2D00DF08BC /* UIKit.framework */,
+				D0D2DB4317470C2D00DF08BC /* Foundation.framework */,
+				D0D2DB4517470C2D00DF08BC /* CoreGraphics.framework */,
+				D0D2DB6517470C2E00DF08BC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D2DB4717470C2D00DF08BC /* JSPebbleReminders */ = {
+			isa = PBXGroup;
+			children = (
+				D0D2DB5017470C2D00DF08BC /* JSAppDelegate.h */,
+				D0D2DB5117470C2D00DF08BC /* JSAppDelegate.m */,
+				D0D2DB5917470C2D00DF08BC /* JSViewController.h */,
+				D0D2DB5A17470C2D00DF08BC /* JSViewController.m */,
+				D0D2DB5C17470C2E00DF08BC /* JSViewController.xib */,
+				D0D2DB4817470C2D00DF08BC /* Supporting Files */,
+			);
+			path = JSPebbleReminders;
+			sourceTree = "<group>";
+		};
+		D0D2DB4817470C2D00DF08BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D2DB4917470C2D00DF08BC /* JSPebbleReminders-Info.plist */,
+				D0D2DB4A17470C2D00DF08BC /* InfoPlist.strings */,
+				D0D2DB4D17470C2D00DF08BC /* main.m */,
+				D0D2DB4F17470C2D00DF08BC /* JSPebbleReminders-Prefix.pch */,
+				D0D2DB5317470C2D00DF08BC /* Default.png */,
+				D0D2DB5517470C2D00DF08BC /* Default@2x.png */,
+				D0D2DB5717470C2D00DF08BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0D2DB6B17470C2E00DF08BC /* JSPebbleRemindersTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D2DB7117470C2E00DF08BC /* JSPebbleRemindersTests.h */,
+				D0D2DB7217470C2E00DF08BC /* JSPebbleRemindersTests.m */,
+				D0D2DB6C17470C2E00DF08BC /* Supporting Files */,
+			);
+			path = JSPebbleRemindersTests;
+			sourceTree = "<group>";
+		};
+		D0D2DB6C17470C2E00DF08BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D2DB6D17470C2E00DF08BC /* JSPebbleRemindersTests-Info.plist */,
+				D0D2DB6E17470C2E00DF08BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D2DB3D17470C2D00DF08BC /* JSPebbleReminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D2DB7617470C2E00DF08BC /* Build configuration list for PBXNativeTarget "JSPebbleReminders" */;
+			buildPhases = (
+				D0D2DB3A17470C2D00DF08BC /* Sources */,
+				D0D2DB3B17470C2D00DF08BC /* Frameworks */,
+				D0D2DB3C17470C2D00DF08BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPebbleReminders;
+			productName = JSPebbleReminders;
+			productReference = D0D2DB3E17470C2D00DF08BC /* JSPebbleReminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D2DB6317470C2E00DF08BC /* JSPebbleRemindersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D2DB7917470C2E00DF08BC /* Build configuration list for PBXNativeTarget "JSPebbleRemindersTests" */;
+			buildPhases = (
+				D0D2DB5F17470C2E00DF08BC /* Sources */,
+				D0D2DB6017470C2E00DF08BC /* Frameworks */,
+				D0D2DB6117470C2E00DF08BC /* Resources */,
+				D0D2DB6217470C2E00DF08BC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D2DB6A17470C2E00DF08BC /* PBXTargetDependency */,
+			);
+			name = JSPebbleRemindersTests;
+			productName = JSPebbleRemindersTests;
+			productReference = D0D2DB6417470C2E00DF08BC /* JSPebbleRemindersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D2DB3617470C2D00DF08BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Javier Soto";
+			};
+			buildConfigurationList = D0D2DB3917470C2D00DF08BC /* Build configuration list for PBXProject "JSPebbleReminders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0D2DB3517470C2D00DF08BC;
+			productRefGroup = D0D2DB3F17470C2D00DF08BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D2DB3D17470C2D00DF08BC /* JSPebbleReminders */,
+				D0D2DB6317470C2E00DF08BC /* JSPebbleRemindersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D2DB3C17470C2D00DF08BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D2DB4C17470C2D00DF08BC /* InfoPlist.strings in Resources */,
+				D0D2DB5417470C2D00DF08BC /* Default.png in Resources */,
+				D0D2DB5617470C2D00DF08BC /* Default@2x.png in Resources */,
+				D0D2DB5817470C2D00DF08BC /* Default-568h@2x.png in Resources */,
+				D0D2DB5E17470C2E00DF08BC /* JSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D2DB6117470C2E00DF08BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D2DB7017470C2E00DF08BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0D2DB6217470C2E00DF08BC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D2DB3A17470C2D00DF08BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D2DB4E17470C2D00DF08BC /* main.m in Sources */,
+				D0D2DB5217470C2D00DF08BC /* JSAppDelegate.m in Sources */,
+				D0D2DB5B17470C2D00DF08BC /* JSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D2DB5F17470C2E00DF08BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D2DB7317470C2E00DF08BC /* JSPebbleRemindersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D2DB6A17470C2E00DF08BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D2DB3D17470C2D00DF08BC /* JSPebbleReminders */;
+			targetProxy = D0D2DB6917470C2E00DF08BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0D2DB4A17470C2D00DF08BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D2DB4B17470C2D00DF08BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0D2DB5C17470C2E00DF08BC /* JSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D2DB5D17470C2E00DF08BC /* en */,
+			);
+			name = JSViewController.xib;
+			sourceTree = "<group>";
+		};
+		D0D2DB6E17470C2E00DF08BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D2DB6F17470C2E00DF08BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D2DB7417470C2E00DF08BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0D2DB7517470C2E00DF08BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D2DB7717470C2E00DF08BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSPebbleReminders/JSPebbleReminders-Prefix.pch";
+				INFOPLIST_FILE = "JSPebbleReminders/JSPebbleReminders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0D2DB7817470C2E00DF08BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSPebbleReminders/JSPebbleReminders-Prefix.pch";
+				INFOPLIST_FILE = "JSPebbleReminders/JSPebbleReminders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0D2DB7A17470C2E00DF08BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSPebbleReminders.app/JSPebbleReminders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSPebbleReminders/JSPebbleReminders-Prefix.pch";
+				INFOPLIST_FILE = "JSPebbleRemindersTests/JSPebbleRemindersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0D2DB7B17470C2E00DF08BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSPebbleReminders.app/JSPebbleReminders";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSPebbleReminders/JSPebbleReminders-Prefix.pch";
+				INFOPLIST_FILE = "JSPebbleRemindersTests/JSPebbleRemindersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D2DB3917470C2D00DF08BC /* Build configuration list for PBXProject "JSPebbleReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D2DB7417470C2E00DF08BC /* Debug */,
+				D0D2DB7517470C2E00DF08BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D2DB7617470C2E00DF08BC /* Build configuration list for PBXNativeTarget "JSPebbleReminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D2DB7717470C2E00DF08BC /* Debug */,
+				D0D2DB7817470C2E00DF08BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0D2DB7917470C2E00DF08BC /* Build configuration list for PBXNativeTarget "JSPebbleRemindersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D2DB7A17470C2E00DF08BC /* Debug */,
+				D0D2DB7B17470C2E00DF08BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D2DB3617470C2D00DF08BC /* Project object */;
+}
