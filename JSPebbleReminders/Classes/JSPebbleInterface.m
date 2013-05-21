@@ -11,6 +11,8 @@
 #import <PebbleKit/PebbleKit.h>
 #import "JSPebbleReminders.h"
 
+static const uint8_t pebbleAppUUID[] = { 0x3C, 0xB4, 0x32, 0xD0, 0xD2, 0xF8, 0x44, 0x63, 0xA6, 0xC4, 0x36, 0xE0, 0xC5, 0x32, 0xB0, 0x50 };
+
 @interface JSPebbleInterface () <PBPebbleCentralDelegate>
 
 @property (nonatomic, strong) PBWatch *watch;
@@ -18,15 +20,6 @@
 @end
 
 @implementation JSPebbleInterface
-
-static void showErrorAlertWithMessage(NSString *message)
-{
-    [[[UIAlertView alloc] initWithTitle:@"Error"
-                                message:message
-                               delegate:nil
-                      cancelButtonTitle:@"OK"
-                      otherButtonTitles:nil] show];
-}
 
 + (instancetype)defaultInterface
 {
@@ -61,15 +54,6 @@ static void showErrorAlertWithMessage(NSString *message)
     [PBPebbleCentral defaultCentral].delegate = self;
 }
 
-- (void)ping
-{
-    [self.watch pingWithCookie:1 onPong:^(PBWatch *watch, UInt32 cookie) {
-        NSLog(@"Got ping response!");
-    } onTimeout:^(PBWatch *watch, UInt32 cookie) {
-        NSLog(@"TIME OUT?");
-    }];
-}
-
 - (void)setWatch:(PBWatch *)watch
 {
     if (watch != _watch)
@@ -83,13 +67,13 @@ static void showErrorAlertWithMessage(NSString *message)
                 showErrorAlertWithMessage(@"App messages is not supported on the watch. Update the firmware");
             }
 
-            uint8_t bytes[] = { 0x3C, 0xB4, 0x32, 0xD0, 0xD2, 0xF8, 0x44, 0x63, 0xA6, 0xC4, 0x36, 0xE0, 0xC5, 0x32, 0xB0, 0x50 };
-            NSData *uuid = [NSData dataWithBytes:bytes length:sizeof(bytes)];
+            NSData *uuid = [NSData dataWithBytes:pebbleAppUUID length:sizeof(pebbleAppUUID)];
             [watch appMessagesSetUUID:uuid];
 
             [self.watch appMessagesAddReceiveUpdateHandler:^BOOL(PBWatch *w2, NSDictionary *update) {
                 NSLog(@"Watch sent: %@", update);
 
+                // Dispatch async so that PebbleKit sends the ACK first.
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [[JSPebbleReminders defaultInstance] sendRemindersToPebbleInterface:weakSelf];
                 });

@@ -19,15 +19,6 @@
 
 @implementation JSPebbleReminders
 
-static void showErrorAlertWithMessage(NSString *message)
-{
-    [[[UIAlertView alloc] initWithTitle:@"Error"
-                                message:message
-                               delegate:nil
-                      cancelButtonTitle:@"OK"
-                      otherButtonTitles:nil] show];
-}
-
 + (JSPebbleReminders *)defaultInstance
 {
     static JSPebbleReminders *defaultInstance = nil;
@@ -80,7 +71,6 @@ static void showErrorAlertWithMessage(NSString *message)
                   NSArray *titles = [reminders valueForKey:NSStringFromSelector(@selector(title))];
 
                   [[JSPebbleInterface defaultInterface] sendStringArray:titles];
-                  
               });
           }];
      }];

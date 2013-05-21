@@ -14,8 +14,6 @@
 
 - (void)startListening;
 
-- (void)ping;
-
 - (void)sendStringArray:(NSArray *)stringArray;
 
 @end
