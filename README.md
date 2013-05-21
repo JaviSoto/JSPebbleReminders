@@ -47,6 +47,8 @@ $ git submodule update --init
 
   - Open `http://<your_local_ip>:8000` using Safari on your iPhone and navigate to the `build` folder.
   - Open the file `pebble_reminders_app.pbw` and install with the Pebble app.
+  
+  - Alternatively, you can download the .pbw file compiled using [CloudPebble](https://cloudpebble.net) from [here](http://small.cat/pie) (at your own risk, I haven't tested this)
 
 ## Known issues:
 - Because of the limited buffer size on the pebble app, you might see a "buffer overflow" error on your watch if you have too many reminders.
