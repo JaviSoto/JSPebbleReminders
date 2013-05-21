@@ -3,7 +3,7 @@ This is my first watchapp for the [Pebble](http://getpebble.com/) using the [App
 
 ## Components
 - [**iOS App**](https://github.com/JaviSoto/JSPebbleReminders/tree/master/JSPebbleReminders): Simple app with no UI. It waits for a message from pebble, and replies with a dictionary containing the titles of the reminders on your main reminder list.
-- [**Pebble App**](https://github.com/JaviSoto/JSPebbleReminders/blob/master/pebble_reminders_app/src/pebble_reminders_app.c): It sends a message to the iOS app via App Messages, and when it gets a response, it creates a `SimpleMenuLayer` to display the reminders.
+- [**Pebble App**](https://github.com/JaviSoto/JSPebbleReminders/blob/master/pebble_reminders_app/src/pebble_reminders_app.c): It sends a message to the iOS app via App Messages, and when it gets a response, it creates a [`SimpleMenuLayer`](http://developer.getpebble.com/sdkref/group___simple_menu_layer.html) to display the reminders.
 
 ## Picture
 
