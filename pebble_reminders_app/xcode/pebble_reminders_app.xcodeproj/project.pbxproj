@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000027100000000562001069 /* pebble_reminders_app.c in Sources */ = {isa = PBXBuildFile; fileRef = 000027100000000562001051 /* pebble_reminders_app.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000027100000000562001039 /* pebble_app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pebble_app.h; sourceTree = "<group>"; };
+		000027100000000562001040 /* pebble_app_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pebble_app_info.h; sourceTree = "<group>"; };
+		000027100000000562001041 /* pebble_fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pebble_fonts.h; sourceTree = "<group>"; };
+		000027100000000562001042 /* pebble_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pebble_os.h; sourceTree = "<group>"; };
+		000027100000000562001044 /* libpebble.a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libpebble.a; sourceTree = "<group>"; };
+		000027100000000562001045 /* pebble_app.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pebble_app.ld; sourceTree = "<group>"; };
+		000027100000000562001048 /* resource_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resource_map.json; sourceTree = "<group>"; };
+		000027100000000562001049 /* wscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wscript; sourceTree = "<group>"; };
+		000027100000000562001051 /* pebble_reminders_app.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pebble_reminders_app.c; sourceTree = "<group>"; };
+		000027100000000562001053 /* bitmapgen.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitmapgen.py; sourceTree = "<group>"; };
+		000027100000000562001055 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = __init__.py; sourceTree = "<group>"; };
+		000027100000000562001056 /* fontgen.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fontgen.py; sourceTree = "<group>"; };
+		000027100000000562001057 /* generate_resource_code.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = generate_resource_code.py; sourceTree = "<group>"; };
+		000027100000000562001058 /* mkbundle.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mkbundle.py; sourceTree = "<group>"; };
+		000027100000000562001059 /* pbpack_meta_data.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pbpack_meta_data.py; sourceTree = "<group>"; };
+		000027100000000562001060 /* stm32_crc.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stm32_crc.py; sourceTree = "<group>"; };
+		000027100000000562001061 /* stm32_crc.pyc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stm32_crc.pyc; sourceTree = "<group>"; };
+		000027100000000562001062 /* waf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = waf; sourceTree = "<group>"; };
+		000027100000000562001063 /* wscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wscript; sourceTree = "<group>"; };
+		D0A65A2F1747126600D768B6 /* index_dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = index_dummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A65A311747126600D768B6 /* clar_tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clar_tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A65A3B1747141D00D768B6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D0A65A3E1747141D00D768B6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D0A65A401747141D00D768B6 /* waf_build.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = waf_build.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000027100000000562001003 /* pebble_reminders_app */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001004 /* out */,
+				000027100000000562001038 /* include */,
+				000027100000000562001043 /* lib */,
+				000027100000000562001045 /* pebble_app.ld */,
+				000027100000000562001046 /* resources */,
+				000027100000000562001050 /* src */,
+				000027100000000562001052 /* tools */,
+				000027100000000562001062 /* waf */,
+				000027100000000562001063 /* wscript */,
+				D0A65A3D1747141D00D768B6 /* waf build */,
+				D0A65A3A1747141D00D768B6 /* Frameworks */,
+				D0A65A301747126600D768B6 /* Products */,
+			);
+			name = pebble_reminders_app;
+			path = ../;
+			sourceTree = "<group>";
+		};
+		000027100000000562001004 /* out */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = out;
+			sourceTree = "<group>";
+		};
+		000027100000000562001038 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001039 /* pebble_app.h */,
+				000027100000000562001040 /* pebble_app_info.h */,
+				000027100000000562001041 /* pebble_fonts.h */,
+				000027100000000562001042 /* pebble_os.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		000027100000000562001043 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001044 /* libpebble.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		000027100000000562001046 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001047 /* src */,
+				000027100000000562001049 /* wscript */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		000027100000000562001047 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001048 /* resource_map.json */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		000027100000000562001050 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001051 /* pebble_reminders_app.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		000027100000000562001052 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001053 /* bitmapgen.py */,
+				000027100000000562001054 /* font */,
+				000027100000000562001057 /* generate_resource_code.py */,
+				000027100000000562001058 /* mkbundle.py */,
+				000027100000000562001059 /* pbpack_meta_data.py */,
+				000027100000000562001060 /* stm32_crc.py */,
+				000027100000000562001061 /* stm32_crc.pyc */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		000027100000000562001054 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				000027100000000562001055 /* __init__.py */,
+				000027100000000562001056 /* fontgen.py */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		D0A65A301747126600D768B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65A2F1747126600D768B6 /* index_dummy.app */,
+				D0A65A311747126600D768B6 /* clar_tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A65A3A1747141D00D768B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65A3B1747141D00D768B6 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0A65A3D1747141D00D768B6 /* waf build */ = {
+			isa = PBXGroup;
+			children = (
+				D0A65A3E1747141D00D768B6 /* main.c */,
+				D0A65A401747141D00D768B6 /* waf_build.1 */,
+			);
+			name = "waf build";
+			path = "xcode/waf build";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		000027100000000562001005 /* all_targets */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001007 /* Build configuration list for PBXLegacyTarget "all_targets" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = all_targets;
+			passBuildSettingsInEnvironment = 1;
+			productName = all_targets;
+		};
+		000027100000000562001008 /* resource_map.json */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001010 /* Build configuration list for PBXLegacyTarget "resource_map.json" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = resource_map.json;
+			passBuildSettingsInEnvironment = 1;
+			productName = resource_map.json;
+		};
+		000027100000000562001011 /* app_resources.pbpack.data */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001013 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack.data" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = app_resources.pbpack.data;
+			passBuildSettingsInEnvironment = 1;
+			productName = app_resources.pbpack.data;
+		};
+		000027100000000562001014 /* app_resources.pbpack.table */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001016 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack.table" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = app_resources.pbpack.table;
+			passBuildSettingsInEnvironment = 1;
+			productName = app_resources.pbpack.table;
+		};
+		000027100000000562001017 /* app_resources.pbpack.manifest */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001019 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack.manifest" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = app_resources.pbpack.manifest;
+			passBuildSettingsInEnvironment = 1;
+			productName = app_resources.pbpack.manifest;
+		};
+		000027100000000562001020 /* app_resources.pbpack */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001022 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = app_resources.pbpack;
+			passBuildSettingsInEnvironment = 1;
+			productName = app_resources.pbpack;
+		};
+		000027100000000562001023 /* resource_ids.auto.h */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001025 /* Build configuration list for PBXLegacyTarget "resource_ids.auto.h" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = resource_ids.auto.h;
+			passBuildSettingsInEnvironment = 1;
+			productName = resource_ids.auto.h;
+		};
+		000027100000000562001026 /* pebble-app.elf */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001028 /* Build configuration list for PBXLegacyTarget "pebble-app.elf" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "pebble-app.elf";
+			passBuildSettingsInEnvironment = 1;
+			productName = "pebble-app.elf";
+		};
+		000027100000000562001029 /* pebble-app.raw.bin */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001031 /* Build configuration list for PBXLegacyTarget "pebble-app.raw.bin" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "pebble-app.raw.bin";
+			passBuildSettingsInEnvironment = 1;
+			productName = "pebble-app.raw.bin";
+		};
+		000027100000000562001032 /* inject-metadata */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001034 /* Build configuration list for PBXLegacyTarget "inject-metadata" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "inject-metadata";
+			passBuildSettingsInEnvironment = 1;
+			productName = "inject-metadata";
+		};
+		000027100000000562001035 /* pebble_reminders_app.pbw */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 000027100000000562001037 /* Build configuration list for PBXLegacyTarget "pebble_reminders_app.pbw" */;
+			buildPhases = (
+			);
+			buildToolPath = "./waf-xcode.sh";
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = pebble_reminders_app.pbw;
+			passBuildSettingsInEnvironment = 1;
+			productName = pebble_reminders_app.pbw;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		000027100000000562001064 /* index_dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000027100000000562001066 /* Build configuration list for PBXNativeTarget "index_dummy" */;
+			buildPhases = (
+				000027100000000562001068 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = index_dummy;
+			productName = index_dummy;
+			productReference = D0A65A2F1747126600D768B6 /* index_dummy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000027100000000562001070 /* clar_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000027100000000562001076 /* Build configuration list for PBXNativeTarget "clar_tests" */;
+			buildPhases = (
+				000027100000000562001073 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clar_tests;
+			productName = clar_tests;
+			productReference = D0A65A311747126600D768B6 /* clar_tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000027100000000562001000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 000027100000000562001002 /* Build configuration list for PBXProject "pebble_reminders_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 000027100000000562001003 /* pebble_reminders_app */;
+			productRefGroup = D0A65A301747126600D768B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000027100000000562001005 /* all_targets */,
+				000027100000000562001008 /* resource_map.json */,
+				000027100000000562001011 /* app_resources.pbpack.data */,
+				000027100000000562001014 /* app_resources.pbpack.table */,
+				000027100000000562001017 /* app_resources.pbpack.manifest */,
+				000027100000000562001020 /* app_resources.pbpack */,
+				000027100000000562001023 /* resource_ids.auto.h */,
+				000027100000000562001026 /* pebble-app.elf */,
+				000027100000000562001029 /* pebble-app.raw.bin */,
+				000027100000000562001032 /* inject-metadata */,
+				000027100000000562001035 /* pebble_reminders_app.pbw */,
+				000027100000000562001064 /* index_dummy */,
+				000027100000000562001070 /* clar_tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		000027100000000562001073 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export ACTION=test\n./waf-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000027100000000562001068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000027100000000562001069 /* pebble_reminders_app.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000027100000000562001001 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+			};
+			name = waf;
+		};
+		000027100000000562001006 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001009 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001012 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001015 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001018 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001021 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001024 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001027 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001030 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001033 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001036 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = waf;
+		};
+		000027100000000562001065 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../src/**";
+				PRODUCT_NAME = index_dummy;
+			};
+			name = waf;
+		};
+		000027100000000562001075 /* waf */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = waf;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000027100000000562001002 /* Build configuration list for PBXProject "pebble_reminders_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001001 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001007 /* Build configuration list for PBXLegacyTarget "all_targets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001006 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001010 /* Build configuration list for PBXLegacyTarget "resource_map.json" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001009 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001013 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack.data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001012 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001016 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack.table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001015 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001019 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack.manifest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001018 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001022 /* Build configuration list for PBXLegacyTarget "app_resources.pbpack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001021 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001025 /* Build configuration list for PBXLegacyTarget "resource_ids.auto.h" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001024 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001028 /* Build configuration list for PBXLegacyTarget "pebble-app.elf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001027 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001031 /* Build configuration list for PBXLegacyTarget "pebble-app.raw.bin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001030 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001034 /* Build configuration list for PBXLegacyTarget "inject-metadata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001033 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001037 /* Build configuration list for PBXLegacyTarget "pebble_reminders_app.pbw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001036 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001066 /* Build configuration list for PBXNativeTarget "index_dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001065 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+		000027100000000562001076 /* Build configuration list for PBXNativeTarget "clar_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000027100000000562001075 /* waf */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = waf;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000027100000000562001000 /* Project object */;
+}
