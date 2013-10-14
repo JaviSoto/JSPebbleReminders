@@ -52,3 +52,7 @@ $ git submodule update --init
 
 ## Known issues:
 - Because of the limited buffer size on the pebble app, you might see a "buffer overflow" error on your watch if you have too many reminders.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JaviSoto/jspebblereminders/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
